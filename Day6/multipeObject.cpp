@@ -18,8 +18,10 @@ public:
 
 int main()
 {
-    Employee emp;
+    Employee emp,emp1;
     emp.setEmployeeId(10);
-    cout << "The employee id is: " << emp.getEmployeeId();
+    emp1.setEmployeeId(12);
+    cout << "The employee id is: " << emp.getEmployeeId()<<endl;
+    cout << "The employee id is: " << emp1.getEmployeeId();
     return 0;
 }
