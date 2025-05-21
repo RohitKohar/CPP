@@ -1,8 +1,10 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-class student{
+class student
+{
     int id;
-    public:
+
+public:
     void setId(int id)
     {
         this->id = id;
@@ -14,8 +16,10 @@ class student{
 };
 int main()
 {
-    student obj,obj1;
+    student obj, obj1;
     obj.setId(19);
+    obj1.setId(20);
+    cout << "The id is: " << obj1.getId() << endl;
     cout << "The id is: " << obj.getId();
     return 0;
 }
