@@ -1,3 +1,4 @@
+// this  operator is a pointer used to store the address of the object and it is used to distinguish the instance variable( class variable ) and local variable (function variable).
 #include <iostream>
 using namespace std;
 class student

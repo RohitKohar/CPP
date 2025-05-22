@@ -35,6 +35,5 @@ int main()
         cout << "Employee Age: " << emp[i].age << endl;
         cout << "-----------------" << endl;
     }
-
     return 0;
 }
