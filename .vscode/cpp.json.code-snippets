@@ -1,0 +1,22 @@
+{
+	"C++ Class with Object": {
+		"prefix": "Class",
+		"body": [
+			"#include <iostream>",
+			"using namespace std;",
+			"",
+			"class ${1:MyClass} {",
+			"private:",
+			"    int ${2:data};",
+			"",
+			"",
+			"};",
+			"",
+			"int main() {",
+			"    ${1:MyClass} obj(${3:10});",
+			"    return 0;",
+			"}"
+		],
+		"description": "C++ class template with constructor and object creation"
+	}
+}
